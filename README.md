@@ -11,20 +11,18 @@ previews, and packed atlases. These are benchmark examples, not guarantees
 for every mesh. See [BENCHMARK.md](docs/BENCHMARK.md) for the test settings
 and measured metrics.
 
-### High-poly chest — latest comparison
+### Wizard
+(docs/p12_balanced_layout.png)
+(docs/p12_balanced_parts.png)
 
-![High-poly treasure chest comparison of Rust uvunwrap, UltraTex comfy_gpu and Ultimate UV Artist, with UV islands, checker textures and atlas layouts](docs/images/chest_phase2_comparison.png)
+### deer
+(docs/deer_artist_layout.png)
+(docs/deer_artist_parts.png)
 
-### Fox character — latest comparison
+### chest
+(docs/chest_low12k_balanced_layout.png)
+(docs/chest_low12k_balanced_parts.png)
 
-![Fox character UV comparison showing old unwraps and Ultimate UV Artist, with part regions, checkerboard renders and packed atlases](docs/images/fox_phase2_comparison.jpg)
-
-<details>
-<summary>Earlier chest benchmark (before the latest refinements)</summary>
-
-![Earlier 6-million-triangle chest comparison between Rust unwrap, ComfyUI GPU unwrap and Ultimate UV Artist](docs/images/chest_initial_comparison.jpg)
-
-</details>
 
 * **Part-aware, not part-bound.** The mesh is segmented into parts (lid,
   bands, rivets, handles, planks, limbs...) from geometry and, optionally,
