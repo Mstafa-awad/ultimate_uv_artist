@@ -12,16 +12,16 @@ for every mesh. See [BENCHMARK.md](docs/BENCHMARK.md) for the test settings
 and measured metrics.
 
 ### Wizard
-(docs/p12_balanced_layout.png)
-(docs/p12_balanced_parts.png)
+![Wizard Layout](docs/p12_balanced_layout.png)
+![Wizard Parts](docs/p12_balanced_parts.png)
 
 ### deer
-(docs/deer_artist_layout.png)
-(docs/deer_artist_parts.png)
+![Deer Artist Layout](docs/deer_artist_layout.png)
+![Deer Artist Parts](docs/deer_artist_parts.png)
 
 ### chest
-(docs/chest_low12k_balanced_layout.png)
-(docs/chest_low12k_balanced_parts.png)
+![Chest Low12k Balanced Layout](docs/chest_low12k_balanced_layout.png)
+![Chest Low12k Balanced Parts](docs/chest_low12k_balanced_parts.png)
 
 
 * **Part-aware, not part-bound.** The mesh is segmented into parts (lid,
